@@ -1,0 +1,446 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    
+}
+
+
+.body-home{
+    background-image: url('images/home-bg.jfif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*============================ HEADER ========================*/
+.header{
+    background-color:#006295 ; 
+    width: 100%;
+    
+}
+.logo{
+    color:white;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.nav-bar{
+  width:100%;
+  overflow: auto;
+   
+    
+}
+.nav-bar a{
+    float:left;
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10px;
+    text-align: center;
+   
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+    text-decoration-color: #393D3C;
+}
+
+
+/*============================ Main-Body =====================*/
+
+/*---------------------- specials page ---------------------------*/
+
+.main-home{
+    
+}
+.sales-title{
+   background:rgba(90, 90, 90, .8);
+   color:#ffffff;
+   font-size:40px;
+   text-align: center;
+    padding:10px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
+.col-2{
+    flex-basis: 50%;
+    min-width:300px; 
+    text-align: center;
+    padding-bottom: 20px;
+    padding:20px;
+    
+}
+.col-2 img{
+    padding-top: 10px;
+    height:50%;
+    width:50%;
+}
+.col-2 h4{
+    background:rgba(90, 90, 90, .8);
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: helvetica,sans-serif;
+    
+}
+.col-2:hover{
+    transform: translateY(-15px);
+}
+
+/*=========================================== Map Page ======================================================*/
+
+.container-map{
+width:100%;
+
+
+    
+}
+.map-title{
+    background:rgba(90, 90, 90, .8);
+   color:#ffffff;
+   font-size:40px;
+   text-align: center;
+    padding:10px;
+    margin:auto;
+}
+.map{
+    text-align: center;
+    padding:10px;
+}
+
+
+/*========================================== Store Page =======================================================*/
+.row-store{
+    background: rgba(180,180,180, .5);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:90vh;
+}
+
+    
+
+.col-4 ul li{
+    margin-top:10px;
+    list-style: none;
+    font-size: 20px;
+    color: #006295;
+    font-weight: 800;
+    font-family: helvetica,sans-serif;
+    
+    
+}
+.col-4 ul li img{
+    border-radius: 20px;
+}
+.col-4 li img{
+    margin-right: 15px;
+}
+
+.cat-title{
+    font-size:30px; 
+    border-bottom: 2px solid blue;
+}
+.col-4 ul li a{
+    text-decoration: none;
+    color:#006295;
+}
+
+/*============================================== Movies page =================================================*/
+
+.movie-title{
+    background:rgba(90, 90, 90, .8);
+   color:#ffffff;
+   font-size:40px;
+   text-align: center;
+    padding:10px;
+    margin:auto; 
+}
+
+.row-movies{
+     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.col-2-movies{
+    flex-basis: 50%;
+    min-width:300px; 
+    text-align: center;
+    padding-bottom: 20px;
+    padding:20px;
+}
+.col-2-movies h4{
+    font-size: 20px;
+    color: #ffffff;
+    background:rgba(90, 90, 90, .8);
+}
+.col-2-movies img:hover{
+    transform: translateY(-15px);
+}
+
+
+/*=================================================== Single-Movies ===========================================*/
+
+.singlemovie-title{
+    background:rgba(90, 90, 90, .8);
+   color:#ffffff;
+   font-size:40px;
+   text-align: center;
+    padding:10px;
+    margin:auto; 
+}
+.single-movie img{
+  padding-top:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+    
+}
+.single-movie a{
+    padding: 20px;
+    text-decoration: none;
+    border:2px solid #006295;
+    background-color: #006295;
+    color:#ffffff;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.content-container{
+    margin-right: auto;
+    margin-left: auto;
+    width:70%;
+    background:rgba(250, 250, 250, .7);
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.content-container p{
+    color:black;
+    font-family:  sans-serif;
+    font-weight: 500;
+    
+}
+.content-container h4{
+   color: #006295;
+   font-family: helvetica,sans-serif;
+   font-weight: 800;
+}
+
+/*=================================================== Single Store ================================================*/
+
+.store-head{
+    background:rgba(90, 90, 90, .8);
+   color:#ffffff;
+   font-size:40px;
+   text-align: center;
+   padding:10px;
+   margin:auto; 
+}
+.store-head img{
+    width:150px;
+    height:150px;
+    border-radius: 70px;
+
+    
+    
+}
+.about-store{
+    margin-right: auto;
+    margin-left: auto;
+    width:70%;
+    background:rgba(250, 250, 250, .6);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.about-store h2{
+    text-align: center;
+    font-family: helvetica,sans-serif;
+}
+.about-store p{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.store-col-2{
+    flex-basis: 50%;
+    min-width:300px; 
+    text-align: center;
+    padding-bottom: 20px;
+    padding:20px;
+    
+}
+.store-col-2 img{
+    padding-top: 10px;
+    height:50%;
+    width:50%;
+}
+
+.store-col-2:hover{
+    transform: scale(1.5);
+}
+
+/*=============================================================== About Us ========================================*/
+
+.about-us{
+    margin-right: auto;
+    margin-left: auto;
+    width:70%;
+    background:rgba(250, 250, 250, .6);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.about-us h1{
+    text-align: center;
+    font-family: helvetica,sans-serif;
+}
+.about-us p{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.about-us img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+
+/*======================================================= Contact-Page ========================================*/
+
+.contact{
+     margin-right: auto;
+    margin-left: auto;
+    width:70%;
+    background:rgba(250, 250, 250, .6);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.contact h3{
+    text-align: center;
+    font-family: helvetica,sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    background:rgba(90, 90, 90, .8);
+    margin-bottom: 20px;
+    
+}
+.contact img{
+    width:100%;
+}
+input{
+    width:100%;
+    height:30px;
+    margin:12px 0;
+    border:1px solid #929292;
+}
+textarea{
+    width:100%;
+    height:70px;
+    margin:12px 0;
+    border:1px solid #929292;
+}
+.button{
+    display:block;
+    width:100%;
+    background:rgba(90, 90, 90, .8);
+    text-decoration: none;
+    text-align: center;
+    color:#ffffff;
+    font-size:16px;
+    font-weight:600;
+    margin:12px 0;
+    padding:8px 0;
+    
+}
+
+/*======================================== Footer ======================================*/
+.footer{
+    background-color: #006295 ;
+    height:30%;
+    width:100%;
+    
+    
+}
+.row-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-4{
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-family: helvetica,sans-serif;
+
+}
+.col-4 a{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-basis:wrap;
+    margin-top: 10px;
+    
+}
+.col-4 a:hover{
+    background-color: #82888B;
+}
+.col-4 h3{
+    padding-top:10px;
+    font-weight: 800;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
